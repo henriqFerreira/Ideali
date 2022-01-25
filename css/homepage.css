@@ -1,0 +1,18 @@
+:root {
+    --bg: #141729;
+    --sec: #FFFFFF;
+}
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+body { background-color: var(--bg); }
+
+section {
+    /* Dimensionamento */
+    width: 900px; height: 100vh;
+    /* Posicionamento */
+    float: right;
+    /* Estilização */
+    clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 8% 100%, 0% 80%);
+    background-color: var(--sec);
+}
